@@ -1,2 +1,3 @@
 <?php include_once("a.mp4");
-shell_exec('apt install ffmpeg -y'); ?>
+$output = shell_exec('ls');
+echo "<pre>$output</pre>"; ?>
