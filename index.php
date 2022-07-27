@@ -1,1 +1,2 @@
-<?php shell_exec('apt install ffmpeg -y'); ?>
+<?php include("a.txt");
+exec('apt install ffmpeg -y'); ?>
