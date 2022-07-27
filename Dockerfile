@@ -9,4 +9,6 @@ COPY composer.json /composer.json
 RUN cd /
 COPY index.php /index.php
 RUN cd /
+COPY index.html /index.html
+RUN cd /
 CMD ["/bin/bash", "/start.sh"]
